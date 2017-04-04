@@ -1,0 +1,6 @@
+APIVersion: "1"
+name: kickstart
+type: drupal7
+docroot: docroot
+webimage: drud/nginx-php-fpm7-local:v0.3.2
+dbimage: drud/mysql-docker-local-57:v0.2.0
