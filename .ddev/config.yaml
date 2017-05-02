@@ -1,4 +1,3 @@
 APIVersion: "1"
-name: kickstart
 type: drupal7
 docroot: docroot
