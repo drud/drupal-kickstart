@@ -1,17 +1,3 @@
 APIVersion: "1"
-name: drupal7
 type: drupal7
 docroot: docroot
-webimage: drud/nginx-php-fpm-local:v0.8.0
-dbimage: drud/mysql-local-57:v0.6.2
-dbaimage: drud/phpmyadmin:v0.2.0
-provider: default
-
-# Certain ddev commands can be extended to run tasks before or after the ddev
-# command is executed.
-# See https://ddev.readthedocs.io/en/latest/users/extending-commands/ for more
-# information on the commands that can be extended and the tasks you can define
-# for them.
-# hooks:
-#   post-import-db:
-#     - exec: "drush cc all"
